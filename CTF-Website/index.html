@@ -1,16 +1,105 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CTF Website</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        
-        <h1>Welcome to the CTF Website</h1>
-        <p>This is a simple Capture The Flag (CTF) website for demonstration purposes.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malware Insights</title>
 
-        <body>
-            <script src="script.js" defer></script>
-        </body>
-    </head>
+  <!-- Primary Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!--
+    Some things exist even when they cannot be seen.
+    References matter.
+  -->
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">Malware<span>Insights</span></h1>
+
+      <nav class="navbar" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#threats">Threats</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Understanding Malware</h2>
+        <p>
+          Malware is malicious software engineered to infiltrate, damage, or gain
+          unauthorized access to systems. At <strong>Spectre Club</strong>, we study
+          real-world threats to build resilient defenses.
+        </p>
+        <button class="cta-btn">Explore More</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="info-section">
+      <div class="container">
+        <h2>What is Malware?</h2>
+        <p>
+          Malware includes viruses, worms, trojans, ransomware, spyware, and rootkits.
+          These threats often disguise themselves as legitimate software and exploit
+          system vulnerabilities.
+        </p>
+      </div>
+    </section>
+
+    <!-- Threats -->
+    <section id="threats" class="info-section">
+      <div class="container">
+        <h2>Common Threat Types</h2>
+        <p>
+          <strong>Viruses</strong> spread via execution.<br />
+          <strong>Ransomware</strong> encrypts data for payment.<br />
+          <strong>Trojans</strong> disguise malicious payloads.<br />
+          <strong>Spyware</strong> silently monitors activity.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="info-section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>
+          Interested in cybersecurity, malware research, or Capture The Flag challenges?
+          Reach out and explore further.
+        </p>       
+        <a href="mailto:info@malwareinsights.com" class="contact-btn">
+          Reach&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8204;&#8203;&#8203;&#8204;&#8203;&#8203;&#8203;&#8203;&#8203;&#8204;
+          <!--
+          Hiiiii hiii hiii, the Key -------- is shifted by its sum --.
+          DECODE THIS LOL: GDSQHFSQHT{mcI_VoJS_QFOqysr_wH_QCbuC}
+        -->
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Malware Insights. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
 </html>
